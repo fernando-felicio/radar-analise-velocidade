@@ -18,7 +18,7 @@ if velocidade_atual < velocidade_maxima = Não levou multa
 
 '''
 
-velocidade_atual = int(input("Qual a velocidade atual?"))
+velocidade_atual = int(input("Qual a velocidade atual?  "))
 velocidade_maxima = 80
 if velocidade_atual <= velocidade_maxima:
     print("Não houve multa por excesso de velocidade")
